@@ -1,0 +1,43 @@
+Backend:
+          
+    axios
+    bcryptjs
+    body-parser
+    cookie-parser
+    cors
+    crypto
+    dotenv
+    express
+    http
+    jsonwebtoken
+    mysql
+    nodemon
+    socket.io
+    util
+    uuid
+
+
+Frontend:
+
+    @emotion/react
+    @emotion/styled
+    @mui/icons-material
+    @mui/material
+    @testing-library/jest-dom
+    @testing-library/react
+    @testing-library/user-event
+    axios
+    jquery
+    lodash
+    material-ui-popup-state
+    moment
+    react
+    react-dom
+    react-notifications
+    react-router-dom
+    react-scripts
+    socket.io-client
+    web-vitals
+
+
+
