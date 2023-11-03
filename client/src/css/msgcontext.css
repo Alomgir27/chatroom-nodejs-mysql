@@ -1,0 +1,30 @@
+div.active-guest-messages {
+  position: fixed;
+  top: 73px;
+  bottom: 58px;
+  left: 20px;
+  right: 0;
+  padding: 0 15px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+div.active-guest-messages::-webkit-scrollbar {
+  width: 10px;
+}
+
+div.active-guest-messages::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+div.active-guest-messages::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+div.active-guest-messages div.msg-date label {
+  font-family: "RedHatDisplayRegular";
+  font-size: 11px;
+  font-weight: bold;
+  color: #b4b4b4;
+}

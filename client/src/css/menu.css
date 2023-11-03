@@ -1,0 +1,9 @@
+div.menu {
+  box-shadow: 0 0 6px #ddd;
+  border-radius: 8px;
+}
+
+div.menu div.menu-item {
+  border-radius: 8px;
+  cursor: pointer;
+}

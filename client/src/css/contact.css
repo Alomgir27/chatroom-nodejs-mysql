@@ -1,0 +1,128 @@
+
+div.active-contact {
+  background-color: #eee !important;
+  cursor: default !important;
+}
+div.active-contact div.guest-name > label {
+  cursor: default !important;
+}
+div.active-contact div.chat-label > label {
+  cursor: default !important;
+}
+div.active-contact div.msg-date > label {
+  cursor: default !important;
+}
+
+div.guest-contact {
+  transition: background-color 0.4s;
+  justify-content: center;
+  padding: 6px 10% 6px 6%;
+  display: inline-flex;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: white;
+}
+div.guest-num-users {
+  display: inline-flex;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+div.guest-num-users > label {
+  cursor: pointer;
+  font-size: 11px;
+  color: gray;
+  font-family: "Normal";
+}
+p.date {
+  color: gray;
+  font-size: 11px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  display: inline-block;
+}
+div.guest-contact:hover {
+  background-color: #f7f7f7;
+}
+div.guest-contact div.guest-data {
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 10px;
+  display: flex;
+  width: 100%;
+}
+div.guest-contact div.guest-data div.guest-name > label {
+  font-family: "RedHatDisplayRegular";
+  font-size: 16px;
+  cursor: pointer;
+}
+div.guest-contact div.guest-data div.bottom-data {
+  display: inline-flex;
+  margin-top: 3px;
+}
+div.guest-contact div.guest-data div.bottom-data div.chat-label > label {
+  font-family: "OxygenRegular";
+  cursor: pointer;
+  font-size: 11px;
+  color: gray;
+}
+div.guest-contact div.guest-data div.bottom-data div.msg-date > label {
+  font-family: "OxygenRegular";
+  color: #b4b4b4;
+  transform: translateX(10px);
+  display: inline-block;
+  cursor: pointer;
+  font-size: 11px;
+}
+        
+
+div.chat-label {
+  display: inline;
+  margin-left: 10px;
+  padding: auto;
+}
+div.chat-label > label {
+  cursor: pointer;
+  font-size: 12px;
+  color: gray;
+  font-family: "Normal";  
+}
+
+div.msg-date {
+  display: inline;
+  margin-left: 10px;
+  padding: auto;
+}
+
+div.msg-date > label {
+  cursor: pointer;
+  font-size: 12px;
+  color: gray;
+  font-family: "Normal";  
+}
+
+div.header-data{
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+div.settings {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+div.setting-btn {
+  display: flex;
+  justify-content: flex-start;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+
